@@ -1,0 +1,59 @@
+/*********************************
+ESTILOS RESPONSIVE DEL MENU/NAVBAR
+**********************************/
+
+header {
+    background-color: var(--light-dark);
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  
+  .nav-menu {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px 0;
+    list-style: none;
+    background-color: var(--light-dark);
+    position: fixed;
+    left: 0;
+    top: 40px;
+    width: 100%;
+    height: calc(100% - 40px);
+    overflow-y: auto;
+    left: 100%;
+    transition: left 0.3s;
+  }
+  
+  .nav-menu-item {
+    line-height: 70px;
+  }
+  
+  .nav-menu-link:hover {
+    background: none;
+    color: var(--light-blue);
+  }
+  
+  .nav-toggle {
+    color: white;
+    cursor: pointer;
+    display: block;
+  }
+  
+  .nav-menu_visible {
+    left: 0;
+  }
+  
+  .nav-toggle:focus:not(:focus-visible) {
+    outline: none;
+  }
+
+/*****************************************
+ESTILOS RESPONSIVE DE SECCION HABILIDADES
+******************************************/
+  .main-skills-container {
+      grid-template-columns: min-content;
+  }

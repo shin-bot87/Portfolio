@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Ivan Dapena Morillo</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/tablet.css" media="(max-width: 768px)" />
+    <link rel="stylesheet" href="css/mobile-m.css" media="(max-width: 540px)" />
+    <link rel="stylesheet" href="css/mobile-s.css" media="(max-width: 320px)" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500&display=swap"
+      rel="stylesheet"/>
+    <script defer src="scripts/index.js"></script>
+    <script src="scripts/form.js"></script>
+    <script src="https://kit.fontawesome.com/c39f683593.js"
+      crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!--INICIO DE MENU DE NAVEGACION-->
+    <header>
+      <nav>
+        <button class="nav-toggle" aria-label="Abrir menu">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-menu nav-menu_visible">
+          <li class="nav-menu-item">
+            <a href="#inicio" class="nav-menu-link">Inicio</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="#conocimientos" class="nav-menu-link">Mis Conocimientos</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="https://github.com/shin-bot87" target="_blank" class="nav-menu-link">Mis Trabajos</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="#contacto" class="nav-menu-link">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!--FIN DE MENU DE NAVEGACION-->
+
+    <main>
+      <!--INICIO DE CAPA PRINCIPAL / DESCRIPCION-->
+      <a name="inicio"></a>
+      <section class="main-section">
+        <div class="main-section-container">
+          <div class="main-section-right">
+            <h1>
+              <span class="colores-invertidos">frontend</span>
+              developer
+            </h1>
+            <p>
+              Por un lado, tengo esa "pasión" por la maquetación web
+              profesional, creación de portafolios y páginas para negocios y
+              empresas. Soy un profesional, hasta ahora freelance que crea su
+              propio contenido y por supuesto me adapto a las peticiones del
+              cliente.
+            </p>
+          </div>
+          <div class="main-section-center">
+            <h1>
+              <span class="colores-invertidos">fullstack</span>
+              developer
+            </h1>
+            <a href="https://www.linkedin.com/in/iv%C3%A1n-dapena-morillo/" target="_blank"><img src="assets/img/main-pic.jpg" alt="imagen de mi persona con efecto acuarela"/></a>
+          </div>
+          <div class="small-pic-container">
+            <a href="https://www.linkedin.com/in/iv%C3%A1n-dapena-morillo/" target="_blank"><img src="assets/img/main-pic-small.jpg" alt="imagen tamaño carnet"></a>
+          </div>
+          <div class="main-section-left">
+            <h1>
+              <span class="colores-invertidos">backend</span>
+              developer
+            </h1>
+            <p>
+              Por otro lado, también soy apasionado de la "mecánica" de la
+              programación, de la lógica a aplicar ante un problema, de hecho,
+              me encanta resolver problemas, tanto como programar en cualquier
+              lenguaje.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!--FIN DE CAPA PRINCIPAL / DESCRIPCION-->
+
+      <!--INICIO DE CAPA TECNOLOGIAS-->
+      <a name="conocimientos"></a>
+      <section class="technologies-section">
+        <div class="technologies-section_title">
+          <h2>¿con que tecnologias trabajo?</h2>
+        </div>
+        <div class="technologies-section-images">
+          <img src="assets/img/htmllogo.png" alt="html logo" />
+          <img src="assets/img/csslogo.png" alt="css logo" />
+          <img src="assets/img/jslogo.png" alt="javascript logo" />
+          <img src="assets/img/javalogo.png" alt="java logo" />
+          <img src="assets/img/mysqllogo.png" alt="mysql logo" />
+        </div>
+      </section>
+      <!--FIN DE CAPA TECNOLOGIAS-->
+
+      <!--INICIO CAPA HABILIDADES-->
+      <section class="main-skills">
+        <div class="main-skills-container">
+          <div class="html html-colour">
+            <h3>html5</h3>
+            <p>
+              Dominio de HTML5, mantengo una buena semántica y manejo del DOM.
+            </p>
+          </div>
+          <div class="css css-colour">
+            <h3>css3</h3>
+            <p>Dominio de Box Model, Flex y Grid.</p>
+          </div>
+          <div class="javascript javascript-colour">
+            <h3>javascript</h3>
+            <p>Dominio de JS, POO, ECMAS+6 en adelante y control del DOM.</p>
+          </div>
+          <div class="java java-colour">
+            <h3>java</h3>
+            <p>
+              Dominio de Java SE, Java EE y sus frameworks Hibernate, Struts y
+              Spring Boot.
+            </p>
+          </div>
+          <div class="mysql mysql-colour">
+            <h3>mysql</h3>
+            <p>
+              Dominio de bases BBDD relacionales con MySql. DML/UML, consultas y
+              subconsultas. También manejo de bases de datos de Oracle.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!--FIN CAPA HABILIDADES-->
+
+      <!--INICIO CAPA FORMULARIO-->
+      <a name="contacto"></a>
+      <section class="contact">
+        <div class="u-wrapper">
+          <div class="contact-content">
+            <form id="form" action="post" class="form">
+              <h2 class="form-title">Contactame</h2>
+              <label for="name" class="form-font">Nombre Completo<span>*</span></label>
+              <input name="name" required type="text" id="name" placeholder="Nombre" class="form-font"/>
+              <label for="email" class="form-font">Correo electrónico <span>*</span></label>
+              <input name="email" type="text" id="email" required placeholder="example@mail.com" class="form-font"/>
+              <label for="message" class="form-font">Mensaje</label>
+              <textarea id="message" name="message" id="" cols="30" rows="10" class="form-font"></textarea>
+              <button type="submit" class="btn-primary-full form-font">Enviar mensaje</button>
+            </form>
+            <a href="mailto:ivandap.1987@gmail.com" id="trucazo"></a>
+          </div>
+        </div>
+      </section>
+      <!--FIN CAPA FORMULARIO-->
+    </main>
+    <footer>
+      <div class="footer-container">
+        <p>Autor: IDM <span>&#9400</span>ode</p>
+      </div>
+    </footer>
+  </body>
+</html>

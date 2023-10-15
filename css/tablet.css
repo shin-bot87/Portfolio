@@ -1,0 +1,81 @@
+/****************
+AJUSTES GLOBALES
+*****************/
+:root {
+  --light-dark: #22333B;
+  --light-blue: #8ECAE6;
+  --md: 1.6rem;
+  --lg: 1.8rem;
+  --xl: 2.5rem;
+  --xxl: 3rem;
+}
+
+header {
+  background-color: var(--light-dark);
+  height: 60px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+
+
+/****************************************
+ESTILOS RESPONSIVES DE SECCION PRINCIPAL
+*****************************************/
+.main-section {
+  width: 100%;
+}
+
+.main-section-container {
+  grid-template-columns: 1fr;
+  grid-template-rows: 3fr;
+  justify-content: center;
+}
+
+.main-section-left {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.main-section-center img {
+  display: none;
+}
+
+.small-pic-container {
+  display: block;
+  justify-self: center;
+}
+
+.small-pic-container img {
+  width: 160px;
+  height: 160px;
+  border-radius: 80px;
+  border: 2px solid black;
+}
+
+/*****************************************
+ESTILOS RESPONSIVE DE SECCION TECNOLOGIAS
+******************************************/
+
+.technologies-section {
+  justify-items: center;
+}
+
+.technologies-section-images {
+  grid-template-columns: repeat(auto-fit, minmax(75px, 100px));
+  gap: 60px;
+  width: 60%;
+  height: auto;
+}
+
+/*****************************************
+ESTILOS RESPONSIVE DE SECCION HABILIDADES
+******************************************/
+
+.main-skills-container {
+  grid-template-columns: repeat(auto-fit, minmax(650px, 100px));
+  width: 80%;
+  margin-top: 80px;
+}
